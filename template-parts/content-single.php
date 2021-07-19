@@ -4,7 +4,7 @@
 		<?php the_title(sprintf('<h1 class="mb-2 text-2xl font-extrabold leading-tight entry-title lg:text-5xl"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h1>'); ?>
 		<time datetime="<?php echo get_the_date('c'); ?>" itemprop="datePublished" class="text-sm text-gray-700"><?php echo get_the_date(); ?></time>
 		<div class="mt-4">
-			<?php the_post_thumbnail('large') ?>
+			<?php the_post_thumbnail('medium_large') ?>
 		</div>
 		<div class="mt-4">
 			<?php the_category() ?>

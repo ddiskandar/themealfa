@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<div class="max-w-3xl px-4 mx-auto my-8 lg:px-0">
+	<div class="max-w-4xl px-4 mx-auto my-8 lg:px-0">
 
 	<?php if ( have_posts() ) : ?>
 

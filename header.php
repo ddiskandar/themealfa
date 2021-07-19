@@ -21,31 +21,27 @@
 		<header>
 
 			<div class="container mx-auto">
-				<div class="py-6 border-b lg:flex lg:justify-between lg:items-center">
+				<div class="py-6 lg:flex lg:justify-between lg:items-center">
 					<div class="flex items-center justify-between">
 						<div>
-							<?php if (has_custom_logo()) { ?>
-								<a href="<?php echo esc_url(home_url()); ?>">
-									<?php the_custom_logo(); ?>
+							<div class="text-lg uppercase">
+								<a href="<?php echo esc_url(home_url()); ?>" class="text-lg font-extrabold uppercase">
+									<?php echo get_bloginfo('name'); ?>
 								</a>
-
-							<?php } else { ?>
-								<div class="text-lg uppercase">
-									<a href="<?php echo esc_url(home_url()); ?>" class="text-lg font-extrabold uppercase">
-										<?php echo get_bloginfo('name'); ?>
-									</a>
-								</div>
-							<?php } ?>
+							</div>
 						</div>
 
 						<div class="lg:hidden">
 							<a href="#" aria-label="Toggle navigation" id="primary-menu-toggle">
-								<svg viewBox="0 0 20 20" class="inline-block w-6 h-6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+								<!-- <svg viewBox="0 0 20 20" class="inline-block w-6 h-6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 									<g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
 										<g id="icon-shape">
 											<path d="M0,3 L20,3 L20,5 L0,5 L0,3 Z M0,9 L20,9 L20,11 L0,11 L0,9 Z M0,15 L20,15 L20,17 L0,17 L0,15 Z" id="Combined-Shape"></path>
 										</g>
 									</g>
+								</svg> -->
+								<svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
 								</svg>
 							</a>
 						</div>
@@ -55,7 +51,7 @@
 					wp_nav_menu(
 						array(
 							'container_id'    => 'primary-menu',
-							'container_class' => 'hidden bg-gray-100 mt-4 p-4 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
+							'container_class' => 'hidden bg-gray-100 rounded-lg mt-4 p-4 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
 							'menu_class'      => 'lg:flex lg:-mx-4',
 							'theme_location'  => 'primary',
 							'li_class'        => 'lg:mx-4',

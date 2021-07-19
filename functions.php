@@ -99,8 +99,8 @@ function themealfa_setup() {
 	add_theme_support( 'editor-styles' );
 	add_editor_style();
 
-	add_theme_support("responsive-embeds");
-	add_theme_support('automatic-feed-links');
+	add_theme_support( 'responsive-embeds' );
+	add_theme_support( 'automatic-feed-links' );
 	
 
 	$themealfa = themealfa_get_data();
