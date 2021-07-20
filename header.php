@@ -10,7 +10,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class('bg-white text-gray-900 antialiased'); ?>>
+<body <?php body_class('bg-white text-gray-900 bg-gray-50 antialiased'); ?>>
 
 	<?php do_action('themealfa_site_before'); ?>
 
@@ -18,7 +18,7 @@
 
 		<?php do_action('themealfa_header'); ?>
 
-		<header>
+		<header class="bg-white shadow-xl">
 
 			<div class="container mx-auto">
 				<div class="py-6 lg:flex lg:justify-between lg:items-center">
@@ -52,9 +52,9 @@
 						array(
 							'container_id'    => 'primary-menu',
 							'container_class' => 'hidden bg-gray-100 rounded-lg mt-4 p-4 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
-							'menu_class'      => 'lg:flex lg:-mx-4',
+							'menu_class'      => 'lg:flex lg:-mx-4 space-y-3 lg:space-y-0',
 							'theme_location'  => 'primary',
-							'li_class'        => 'lg:mx-4',
+							'li_class'        => 'lg:mx-6 font-bold',
 							'fallback_cb'     => false,
 						)
 					);

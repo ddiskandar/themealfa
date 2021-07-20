@@ -11,9 +11,12 @@ module.exports = {
             './resources/css/*.css',
             './resources/js/*.js',
             './comments.php',
+            './archive.php',
             './header.php',
+            './header-category.php',
             './footer.php',
             './single.php',
+            './front-page.php',
             './index.php',
             './404.php',
             './safelist.txt'

@@ -1,0 +1,15 @@
+<svg id="news-paper" xmlns="http://www.w3.org/2000/svg" width="54.412" height="54.412" viewBox="0 0 54.412 54.412">
+  <path id="Path_134" data-name="Path 134" d="M4.691,306.874h0a4.691,4.691,0,0,0,4.691-4.691v-19.7H0v19.7a4.691,4.691,0,0,0,4.691,4.691" transform="translate(0 -252.463)" fill="#cdcfcf"/>
+  <path id="Path_135" data-name="Path 135" d="M48.829,49.721V1.876A1.876,1.876,0,0,1,50.7,0H91.983a1.876,1.876,0,0,1,1.876,1.876V49.721a4.691,4.691,0,0,1-4.691,4.691H44.138a4.691,4.691,0,0,0,4.691-4.691" transform="translate(-39.447)" fill="#ecf1f1"/>
+  <path id="Path_136" data-name="Path 136" d="M132.414,102.348h35.649V88.276H132.414Z" transform="translate(-118.342 -78.895)" fill="#8697cb"/>
+  <path id="Path_137" data-name="Path 137" d="M160.173,37.186H124.524a.938.938,0,0,1,0-1.876h35.649a.938.938,0,0,1,0,1.876" transform="translate(-110.452 -31.558)" fill="#cdcfcf"/>
+  <path id="Path_138" data-name="Path 138" d="M132.414,279.284h5.629v-5.629h-5.629Z" transform="translate(-118.342 -244.573)" fill="#f0c419"/>
+  <path id="Path_139" data-name="Path 139" d="M132.414,376.388h5.629v-5.629h-5.629Z" transform="translate(-118.342 -331.357)" fill="#4fba6f"/>
+  <g id="Group_29" data-name="Group 29" transform="translate(13.134 28.144)">
+    <path id="Path_140" data-name="Path 140" d="M246.957,266.7h-25.33a.938.938,0,1,1,0-1.876h25.33a.938.938,0,0,1,0,1.876" transform="translate(-210.37 -264.827)" fill="#cdcfcf"/>
+    <path id="Path_141" data-name="Path 141" d="M231.009,310.841h-9.381a.938.938,0,1,1,0-1.876h9.381a.938.938,0,1,1,0,1.876" transform="translate(-210.37 -304.274)" fill="#cdcfcf"/>
+    <path id="Path_142" data-name="Path 142" d="M246.957,363.806h-25.33a.938.938,0,1,1,0-1.876h25.33a.938.938,0,0,1,0,1.876" transform="translate(-210.37 -351.611)" fill="#cdcfcf"/>
+    <path id="Path_143" data-name="Path 143" d="M231.009,407.944h-9.381a.938.938,0,1,1,0-1.876h9.381a.938.938,0,0,1,0,1.876" transform="translate(-210.37 -391.058)" fill="#cdcfcf"/>
+    <path id="Path_144" data-name="Path 144" d="M160.173,460.91H124.524a.938.938,0,1,1,0-1.876h35.649a.938.938,0,1,1,0,1.876" transform="translate(-123.586 -438.395)" fill="#cdcfcf"/>
+  </g>
+</svg>
