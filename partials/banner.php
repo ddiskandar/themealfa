@@ -2,7 +2,7 @@
 <div x-data="{ open : true }" x-show="open" class="fixed bottom-0 right-0 z-10 flex items-center justify-between p-3 m-2 bg-indigo-800 rounded-lg shadow-lg sm:m-4 sm:px-4">
     <div class="inline-flex items-center text-indigo-100">
         <p>
-            Portal Ikatan Keluarga Alumni SMK Plus Al-Farhan. <a href="https://ikafa.smkplusalfarhan.sch.id/" class="block underline sm:inline-block hover:opacity-75">Buka sekarang</a>
+            Portal Aplikasi Ikatan Keluarga Alumni SMK Plus Al-Farhan. <a href="https://ikafa.smkplusalfarhan.sch.id/" class="underline hover:opacity-75">Buka sekarang</a>
         </p>
     </div>
     <div class="flex items-center ml-2">

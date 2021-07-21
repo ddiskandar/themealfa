@@ -24,8 +24,8 @@
                     <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
                         <div class="px-5 w-96 carousel-cell" aria-hidden="true">
                             <?php the_post_thumbnail('medium', array('class' => 'object-cover w-full h-56 rounded-lg shadow-lg')); ?>
-                            <div class="mt-4 text-sm text-gray-700"><?php the_date() ?> - <span class="inline-block font-bold text-green-700"><?php the_category() ?></span></div>
-                            <h3 class="mt-2 text-xl font-bold leading-tight text-gray-800"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                            <div class="mt-4 text-sm text-gray-700"><?php the_date() ?> - <span class="inline-block font-bold text-green-700"><?php foreach ((get_the_category()) as $category) { echo $category->cat_name . ' '; } ?></span></div>
+                            <h3 class="mt-2 text-2xl font-bold leading-tight text-gray-800"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                             <div class="mt-1 text-sm content">
                                 <?php echo get_the_excerpt(); ?>
                             </div>
