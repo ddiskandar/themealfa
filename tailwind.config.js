@@ -36,6 +36,7 @@ module.exports = {
         },
     },
     plugins: [
+        require('@tailwindcss/aspect-ratio'),
         plugin(function ({addUtilities, addComponents, e, prefix, config, theme}) {
             const colors = theme('colors');
             const margin = theme('margin');

@@ -11,8 +11,8 @@
             <a href="https://www.youtube.com/channel/UCqejvL7CLchNRzUIrBhZCng?sub_confirmation=1" class="hidden px-5 py-2 font-semibold text-white bg-red-700 rounded-sm md:block" target="_blank">SUBSCRIBE
             </a>
         </div>
-        <div class="">
-            <iframe width="854" height="480" src="https://www.youtube.com/embed/WJugia2yr0E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="aspect-w-16 aspect-h-9">
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/9bTLBlSAs7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </section>

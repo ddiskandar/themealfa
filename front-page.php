@@ -15,7 +15,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class('bg-white text-gray-900 bg-gray-50 antialiased'); ?>>
+<body <?php body_class('bg-white text-gray-900 bg-gray-100 antialiased'); ?>>
 
     <?php do_action('themealfa_site_before'); ?>
 
@@ -23,54 +23,63 @@
 
         <?php do_action('themealfa_header'); ?>
 
-        <header class="bg-primary">
-
-            <div class="container mx-auto">
-                <div class="py-6 lg:flex lg:justify-between lg:items-center">
-                    <div class="flex items-center justify-between">
+        <!-- Hero Section: Image Cover With Header Actions Dark -->
+        <div class="bg-bottom bg-cover" style="background-image: url('https://smkplusalfarhan.sch.id/wp-content/uploads/2021/01/hero-bg.jpg');">
+            <div class="bg-gray-800 bg-opacity-80 backdrop-filter backdrop-blur-sm">
+                <!-- Header -->
+                <header id="page-header" class="flex items-center flex-none py-10">
+                    <div class="container flex flex-col px-4 mx-auto space-y-6 text-center md:flex-row md:items-center md:justify-between md:space-y-0 xl:max-w-7xl lg:px-8">
                         <div>
-                            <div class="text-lg uppercase">
-                                <a href="<?php echo esc_url(home_url()); ?>" class="text-lg font-extrabold text-white uppercase">
-                                    <?php echo get_bloginfo('name'); ?>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="lg:hidden">
-                            <a href="#" aria-label="Toggle navigation" id="primary-menu-toggle">
-                                <!-- <svg viewBox="0 0 20 20" class="inline-block w-6 h-6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-									<g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
-										<g id="icon-shape">
-											<path d="M0,3 L20,3 L20,5 L0,5 L0,3 Z M0,9 L20,9 L20,11 L0,11 L0,9 Z M0,15 L20,15 L20,17 L0,17 L0,15 Z" id="Combined-Shape"></path>
-										</g>
-									</g>
-								</svg> -->
-                                <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-                                </svg>
+                            <a href="<?php echo esc_url(home_url()); ?>" class="inline-flex items-center space-x-2 text-lg font-bold tracking-wide text-white hover:opacity-75">
+                                <span><?php echo get_bloginfo('name'); ?></span>
                             </a>
                         </div>
-                    </div>
 
-                    <?php
-                    wp_nav_menu(
-                        array(
-                            'container_id'    => 'primary-menu',
-                            'container_class' => 'hidden bg-gray-100 rounded-lg mt-4 p-4 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
-                            'menu_class'      => 'lg:flex lg:-mx-4 space-y-3 lg:space-y-0 lg:text-white',
-                            'theme_location'  => 'primary',
-                            'li_class'        => 'lg:mx-6 font-bold',
-                            'fallback_cb'     => false,
-                        )
-                    );
-                    ?>
+                        <?php
+                        wp_nav_menu(
+                            array(
+                                'container_id'    => 'primary-menu',
+                                'container_class' => '',
+                                'menu_class'      => 'space-x-4 md:space-x-6 flex justify-center flex-wrap',
+                                'theme_location'  => 'primary',
+                                'li_class'        => 'font-semibold text-gray-300 hover:text-gray-400',
+                                'fallback_cb'     => false,
+                            )
+                        );
+                        ?>
+
+                    </div>
+                </header>
+                <!-- END Header -->
+
+                <!-- Hero Content -->
+                <div class="container px-4 py-16 mx-auto text-center text-white xl:max-w-7xl lg:px-8 lg:py-32">
+                    <div class="text-xl font-bold uppercase">
+                        Bersama Kami
+                    </div>
+                    <h2 class="mb-4 text-4xl font-extrabold md:text-4xl">
+                        Raih Masa Depan Anda
+                    </h2>
+                    <h3 class="mx-auto text-lg font-medium text-gray-400 md:text-xl md:leading-relaxed lg:w-2/3">
+                        Mewujudkan SMK Plus Al-Farhan yang berakhlakul karimah, mandiri, profesional, berprestasi dan berbudaya lingkungan.
+                    </h3>
+                    <div class="flex justify-center mt-8 mb-12 ">
+                        <a href="https://www.youtube.com/watch?v=JqSyQTC1XWk" target="_blank" class="flex items-center my-4 font-semibold focus:outline-none" onclick="toggleProfil('video-profil')">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.467 39" class="w-8 mr-4">
+                                <path id="youtube-brands" d="M69.241,70.1a6.969,6.969,0,0,0-4.9-4.936C60.011,64,42.666,64,42.666,64S25.322,64,21,65.167a6.97,6.97,0,0,0-4.9,4.936c-1.159,4.354-1.159,13.437-1.159,13.437s0,9.084,1.159,13.437a6.866,6.866,0,0,0,4.9,4.857C25.322,103,42.666,103,42.666,103s17.345,0,21.67-1.167a6.866,6.866,0,0,0,4.9-4.857C70.4,92.623,70.4,83.539,70.4,83.539S70.4,74.456,69.241,70.1ZM36.994,91.787V75.292l14.5,8.247Z" transform="translate(-14.933 -64)" fill="#fff" />
+                            </svg>
+                            <span class="tracking-wider">LIHAT VIDEO PROFIL</span>
+                        </a>
+                    </div>
                 </div>
+                <!-- END Hero Content -->
             </div>
-        </header>
+        </div>
+        <!-- END Hero Section: Image Cover With Header Actions Dark -->
+
+        <?php get_template_part('partials/akreditasi') ?>
 
         <div id="content" class="flex-grow site-content">
-
-            <?php get_template_part('partials/hero') ?>
             <?php get_template_part('partials/profil-jurusan') ?>
             <?php get_template_part('partials/dapodik') ?>
             <?php get_template_part('partials/ptk') ?>
