@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-    <script src="//unpkg.com/alpinejs" defer></script>
+    <script defer src="https://unpkg.com/alpinejs@3.2.1/dist/cdn.min.js"></script>
 
     <?php wp_head(); ?>
 </head>
@@ -85,7 +85,7 @@
             <?php get_template_part('partials/ptk') ?>
             <?php get_template_part('partials/berita') ?>
             <?php get_template_part('partials/gallery') ?>
-            <?php get_template_part('partials/youtube') ?>
+
 
         </div>
 
