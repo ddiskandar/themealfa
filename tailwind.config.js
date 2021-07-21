@@ -8,6 +8,7 @@ module.exports = {
     purge: {
         content: [
             './template-parts/*.php',
+            './partials/*.php',
             './resources/css/*.css',
             './resources/js/*.js',
             './comments.php',
