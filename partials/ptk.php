@@ -2,7 +2,7 @@
     <div class="py-12 md:py-20">
         <div class="mb-4 text-center md:mb-12">
             <h2 class="text-3xl font-bold text-gray-700">Team SMK Plus Al-Farhan</h2>
-            <div class="font-semibold text-gray-500">Pendidik dan Tenaga Kependidikan</div>
+            <div class="font-semibold text-gray-600">Pendidik dan Tenaga Kependidikan</div>
         </div>
         <div class="py-8">
             <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "freeScroll": true, "prevNextButtons": false, "pageDots": false }'>
